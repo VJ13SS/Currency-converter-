@@ -1,4 +1,8 @@
 //Results are based upon the data available as per the API
+//Sample of the end point is shared below
+
+//Get the currency list with EUR as base currency:
+https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json
 
 const FLAGURL = "https://flagsapi.com/BE/flat/64.png";
 
@@ -49,6 +53,7 @@ const updateFlag = (currency,name)=>{
 
 //updtae the rate
 const getExchangeRate = async () => {
+  //Fcurr -- > From currency  Tcurr --> To currency 
   let Fcurr = fromCurr.value.toLowerCase();
   let Tcurr = toCurr.value.toLowerCase();
   
