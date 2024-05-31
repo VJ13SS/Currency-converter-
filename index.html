@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class = "container">
+    <h2>Currency Converter</h2>
+    <form>
+      <div class = "amount">
+        <p>Enter Amount</p>
+        <input value="100" type="text" placeholder="Enter the Amount">
+      </div>
+      <div class = "dropdown">
+        <div class ="from">
+          <img src = "https://flagsapi.com/US/flat/64.png" id = "from"/>
+          <select name ="from">
+          </select>
+        </div>
+        <p>⏩</p>
+        <div class ="to">
+          <img src = "https://flagsapi.com/IN/flat/64.png" id = "to"/>
+          <select name ="to">
+          </select>
+        </div>
+      </div>
+      <div class ="msg">
+        <p></p>
+      </div>
+      <h6>Results are subjected to Data available as per the api</h6>
+      <button>GET EXCHANGE RATE</button>
+    </form>
+  </div>
+  <script src="codes.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
